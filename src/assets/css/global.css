@@ -1,0 +1,26 @@
+/* 全局样式表 */
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 890px; /* 最小宽度，也就说当打开侧边栏的时候或者屏幕的宽度不足100%，它会按最小宽度显示，不会改变ui样式，只不过会出现宽度滚动条 */
+    
+}
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.el-card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.el-table{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.el-step__title{
+    font-size: 12px;
+}
+.ql-container{
+    min-height: 285px;
+}
